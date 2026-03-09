@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lorde Turismo - Especialista em viagens internacionais sob medida. Atendimento personalizado e humano.">
+    <meta name="keywords" content="viagens internacionais, agência de viagens, pacotes turísticos, hotéis, cruzeiros, passagens">
+    <title>Lorde Turismo | Agência de Viagens Internacionais</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Particle Background -->
+    <div id="particles-container"></div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="logo-text">
+                    <span class="logo-main">LORDE</span>
+                    <span class="logo-sub">TURISMO</span>
+                </div>
+            </div>
+            <div class="nav-menu" id="navMenu">
+                <a href="#home" class="nav-link active">Início</a>
+                <a href="#destinos" class="nav-link">Destinos</a>
+                <a href="#servicos" class="nav-link">Serviços</a>
+                <a href="#experiencias" class="nav-link">Experiências</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </div>
+            <div class="nav-actions">
+                <a href="https://wa.me/5571996721163" class="btn-whatsapp" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Fale Conosco</span>
+                </a>
+                <div class="menu-toggle" id="menuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="hero-subtitle" data-aos="fade-up">Especialista em Viagens Internacionais</span>
+                <h1 class="hero-title" data-aos="fade-up" data-aos-delay="200">
+                    Explore o Mundo<br>
+                    <span class="gradient-text">Com Excelência</span>
+                </h1>
+                <p class="hero-description" data-aos="fade-up" data-aos-delay="400">
+                    Atendimento personalizado e humano para criar a viagem dos seus sonhos.
+                    Passagens, hotéis, cruzeiros e pacotes sob medida para você.
+                </p>
+                <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
+                    <a href="#destinos" class="btn btn-primary">
+                        <span>Descobrir Destinos</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contato" class="btn btn-secondary">
+                        <span>Planejar Viagem</span>
+                        <i class="fas fa-plane-departure"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-stats" data-aos="fade-up" data-aos-delay="800">
+                <div class="stat-item">
+                    <div class="stat-number" data-count="7507">0</div>
+                    <div class="stat-label">Clientes Satisfeitos</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="150">0</div>
+                    <div class="stat-label">Destinos Internacionais</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-count="98">0</div>
+                    <div class="stat-label">% Satisfação</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Featured Destinations -->
+    <section id="destinos" class="destinations">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Destinos Incríveis</span>
+                <h2 class="section-title">Explore o Mundo Conosco</h2>
+                <p class="section-description">Descubra os destinos mais incríveis do planeta com nossos pacotes exclusivos</p>
+            </div>
+            
+            <div class="destinations-grid">
+                <!-- Europa -->
+                <div class="destination-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="destination-image">
+                        <div class="destination-overlay"></div>
+                        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80" alt="Paris">
+                        <div class="destination-badge">Popular</div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Europa</span>
+                        </div>
+                        <h3>Paris & Londres</h3>
+                        <p>Explore as capitais mais românticas e históricas da Europa em uma jornada inesquecível</p>
+                        <div class="destination-features">
+                            <span><i class="fas fa-calendar"></i> 10 dias</span>
+                            <span><i class="fas fa-hotel"></i> 5★ Hotéis</span>
+                            <span><i class="fas fa-utensils"></i> Refeições</span>
+                        </div>
+                        <div class="destination-footer">
+                            <div class="destination-price">
+                                <span class="price-label">A partir de</span>
+                                <span class="price-value">R$ 12.500</span>
+                            </div>
+                            <a href="#contato" class="btn-destination">
+                                Ver Detalhes
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ásia -->
+                <div class="destination-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="destination-image">
+                        <div class="destination-overlay"></div>
+                        <img src="https://images.unsplash.com/photo-1528164344705-47542687000d?w=800&q=80" alt="Dubai">
+                        <div class="destination-badge luxury">Luxo</div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Oriente Médio</span>
+                        </div>
+                        <h3>Dubai & Abu Dhabi</h3>
+                        <p>Viva o luxo e a modernidade nos Emirados Árabes Unidos com experiências exclusivas</p>
+                        <div class="destination-features">
+                            <span><i class="fas fa-calendar"></i> 7 dias</span>
+                            <span><i class="fas fa-hotel"></i> 5★ Hotéis</span>
+                            <span><i class="fas fa-car"></i> Transfer</span>
+                        </div>
+                        <div class="destination-footer">
+                            <div class="destination-price">
+                                <span class="price-label">A partir de</span>
+                                <span class="price-value">R$ 15.800</span>
+                            </div>
+                            <a href="#contato" class="btn-destination">
+                                Ver Detalhes
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- América do Norte -->
+                <div class="destination-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="destination-image">
+                        <div class="destination-overlay"></div>
+                        <img src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=800&q=80" alt="Nova York">
+                        <div class="destination-badge">Trending</div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Estados Unidos</span>
+                        </div>
+                        <h3>Nova York</h3>
+                        <p>A cidade que nunca dorme te espera com suas atrações icônicas e cultura vibrante</p>
+                        <div class="destination-features">
+                            <span><i class="fas fa-calendar"></i> 8 dias</span>
+                            <span><i class="fas fa-hotel"></i> 4★ Hotéis</span>
+                            <span><i class="fas fa-ticket-alt"></i> Ingressos</span>
+                        </div>
+                        <div class="destination-footer">
+                            <div class="destination-price">
+                                <span class="price-label">A partir de</span>
+                                <span class="price-value">R$ 9.900</span>
+                            </div>
+                            <a href="#contato" class="btn-destination">
+                                Ver Detalhes
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ásia -->
+                <div class="destination-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="destination-image">
+                        <div class="destination-overlay"></div>
+                        <img src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80" alt="Maldivas">
+                        <div class="destination-badge luxury">Luxo</div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Maldivas</span>
+                        </div>
+                        <h3>Ilhas Maldivas</h3>
+                        <p>Paraíso tropical com águas cristalinas e resorts exclusivos sobre o mar</p>
+                        <div class="destination-features">
+                            <span><i class="fas fa-calendar"></i> 9 dias</span>
+                            <span><i class="fas fa-hotel"></i> Resort 5★</span>
+                            <span><i class="fas fa-spa"></i> Spa</span>
+                        </div>
+                        <div class="destination-footer">
+                            <div class="destination-price">
+                                <span class="price-label">A partir de</span>
+                                <span class="price-value">R$ 18.500</span>
+                            </div>
+                            <a href="#contato" class="btn-destination">
+                                Ver Detalhes
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Europa -->
+                <div class="destination-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="destination-image">
+                        <div class="destination-overlay"></div>
+                        <img src="https://images.unsplash.com/photo-1531572753322-ad063cecc140?w=800&q=80" alt="Barcelona">
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Espanha</span>
+                        </div>
+                        <h3>Barcelona & Madrid</h3>
+                        <p>Arte, gastronomia e história em uma viagem inesquecível pela Espanha</p>
+                        <div class="destination-features">
+                            <span><i class="fas fa-calendar"></i> 12 dias</span>
+                            <span><i class="fas fa-hotel"></i> 4★ Hotéis</span>
+                            <span><i class="fas fa-route"></i> Tours</span>
+                        </div>
+                        <div class="destination-footer">
+                            <div class="destination-price">
+                                <span class="price-label">A partir de</span>
+                                <span class="price-value">R$ 11.200</span>
+                            </div>
+                            <a href="#contato" class="btn-destination">
+                                Ver Detalhes
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ásia -->
+                <div class="destination-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="destination-image">
+                        <div class="destination-overlay"></div>
+                        <img src="https://images.unsplash.com/photo-1480796927426-f609979314bd?w=800&q=80" alt="Tóquio">
+                        <div class="destination-badge">Novo</div>
+                    </div>
+                    <div class="destination-content">
+                        <div class="destination-location">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Japão</span>
+                        </div>
+                        <h3>Tóquio & Kyoto</h3>
+                        <p>Mergulhe na cultura milenar japonesa entre templos ancestrais e tecnologia de ponta</p>
+                        <div class="destination-features">
+                            <span><i class="fas fa-calendar"></i> 14 dias</span>
+                            <span><i class="fas fa-hotel"></i> 4★ Hotéis</span>
+                            <span><i class="fas fa-train"></i> JR Pass</span>
+                        </div>
+                        <div class="destination-footer">
+                            <div class="destination-price">
+                                <span class="price-label">A partir de</span>
+                                <span class="price-value">R$ 16.900</span>
+                            </div>
+                            <a href="#contato" class="btn-destination">
+                                Ver Detalhes
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Nossos Serviços</span>
+                <h2 class="section-title">Soluções Completas Para Sua Viagem</h2>
+                <p class="section-description">Oferecemos tudo o que você precisa para uma experiência perfeita</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-plane-departure"></i>
+                    </div>
+                    <h3>Passagens Aéreas</h3>
+                    <p>Melhores tarifas e opções de voos para qualquer destino internacional com as principais companhias aéreas.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Voos Nacionais e Internacionais</li>
+                        <li><i class="fas fa-check"></i> Opções Econômicas e Executivas</li>
+                        <li><i class="fas fa-check"></i> Assistência 24h</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-hotel"></i>
+                    </div>
+                    <h3>Hotéis & Resorts</h3>
+                    <p>Seleção exclusiva de acomodações desde hotéis boutique até resorts de luxo cinco estrelas.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Hotéis 3★ a 5★</li>
+                        <li><i class="fas fa-check"></i> Resorts All Inclusive</li>
+                        <li><i class="fas fa-check"></i> Melhores Localizações</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-ship"></i>
+                    </div>
+                    <h3>Cruzeiros</h3>
+                    <p>Experiências únicas em cruzeiros pelas águas mais belas do mundo com navios modernos e luxuosos.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Cruzeiros Internacionais</li>
+                        <li><i class="fas fa-check"></i> Roteiros Exclusivos</li>
+                        <li><i class="fas fa-check"></i> Cabines Premium</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-suitcase-rolling"></i>
+                    </div>
+                    <h3>Pacotes Sob Medida</h3>
+                    <p>Roteiros personalizados criados especialmente para você com base em suas preferências e estilo.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Planejamento Personalizado</li>
+                        <li><i class="fas fa-check"></i> Flexibilidade Total</li>
+                        <li><i class="fas fa-check"></i> Consultoria Especializada</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Vistos & Documentação</h3>
+                    <p>Assessoria completa para documentação de viagem, vistos e tudo que você precisa regularizar.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Consultoria de Vistos</li>
+                        <li><i class="fas fa-check"></i> Documentação Completa</li>
+                        <li><i class="fas fa-check"></i> Suporte Especializado</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Seguro Viagem</h3>
+                    <p>Proteção completa para sua viagem com os melhores seguros e cobertura internacional.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Cobertura Mundial</li>
+                        <li><i class="fas fa-check"></i> Assistência Médica</li>
+                        <li><i class="fas fa-check"></i> Proteção Bagagem</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experiences Section -->
+    <section id="experiencias" class="experiences">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Experiências Únicas</span>
+                <h2 class="section-title">Momentos Inesquecíveis</h2>
+                <p class="section-description">Viva experiências exclusivas que vão além do turismo tradicional</p>
+            </div>
+
+            <div class="experiences-container">
+                <div class="experience-featured" data-aos="fade-right">
+                    <div class="experience-image">
+                        <img src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1200&q=80" alt="Experiência">
+                        <div class="experience-overlay">
+                            <div class="experience-content">
+                                <span class="experience-category">Luxo & Conforto</span>
+                                <h3>Viagens Personalizadas</h3>
+                                <p>Criamos roteiros exclusivos baseados em seus sonhos e preferências</p>
+                                <a href="#contato" class="btn-experience">Solicitar Consultoria</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="experience-list">
+                    <div class="experience-item" data-aos="fade-left" data-aos-delay="100">
+                        <div class="experience-item-icon">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <div class="experience-item-content">
+                            <h4>Atendimento VIP</h4>
+                            <p>Suporte exclusivo 24/7 com consultores especializados</p>
+                        </div>
+                    </div>
+
+                    <div class="experience-item" data-aos="fade-left" data-aos-delay="200">
+                        <div class="experience-item-icon">
+                            <i class="fas fa-concierge-bell"></i>
+                        </div>
+                        <div class="experience-item-content">
+                            <h4>Concierge de Viagem</h4>
+                            <p>Assistência em todo o processo, do planejamento ao retorno</p>
+                        </div>
+                    </div>
+
+                    <div class="experience-item" data-aos="fade-left" data-aos-delay="300">
+                        <div class="experience-item-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="experience-item-content">
+                            <h4>Experiências Exclusivas</h4>
+                            <p>Acesso a eventos, restaurantes e atrações diferenciadas</p>
+                        </div>
+                    </div>
+
+                    <div class="experience-item" data-aos="fade-left" data-aos-delay="400">
+                        <div class="experience-item-icon">
+                            <i class="fas fa-globe-americas"></i>
+                        </div>
+                        <div class="experience-item-content">
+                            <h4>Roteiros Únicos</h4>
+                            <p>Destinos e experiências que você não encontra em outro lugar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <div class="about-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80" alt="Sobre Lorde Turismo">
+                        <div class="about-badge">
+                            <div class="badge-content">
+                                <span class="badge-number">7.500+</span>
+                                <span class="badge-text">Clientes Felizes</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <span class="section-subtitle">Sobre Nós</span>
+                    <h2 class="section-title">Transformando Sonhos em Realidade</h2>
+                    <p>A <strong>Lorde Turismo</strong> é especialista em viagens internacionais sob medida, oferecendo um atendimento personalizado e humano que faz toda a diferença na sua experiência.</p>
+                    <p>Com anos de experiência no mercado, nossa equipe de consultores especializados está pronta para criar a viagem perfeita para você, cuidando de cada detalhe com excelência e dedicação.</p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Excelência Comprovada</h4>
+                                <p>98% de satisfação dos nossos clientes</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Equipe Especializada</h4>
+                                <p>Consultores experientes e apaixonados por viagens</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Atendimento Humanizado</h4>
+                                <p>Cuidado personalizado em cada etapa da jornada</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-values">
+                        <h3>Nossos Valores</h3>
+                        <div class="values-grid">
+                            <div class="value-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Qualidade</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Confiança</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Transparência</span>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Excelência</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Depoimentos</span>
+                <h2 class="section-title">O Que Nossos Clientes Dizem</h2>
+                <p class="section-description">Experiências reais de quem viajou com a Lorde Turismo</p>
+            </div>
+
+            <div class="testimonials-slider">
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Experiência incrível! A Lorde Turismo cuidou de cada detalhe da nossa lua de mel em Paris. Atendimento impecável e suporte durante toda a viagem. Recomendo muito!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Marina Santos</h4>
+                            <span>Paris, França</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Profissionalismo e qualidade incomparáveis! Viajei para Dubai e tudo foi perfeito, desde o hotel 5 estrelas até os passeios exclusivos. Voltarei a fechar com eles!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Roberto Oliveira</h4>
+                            <span>Dubai, EAU</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"A melhor agência de viagens! Conheci Nova York com um roteiro personalizado que superou todas as expectativas. Equipe sempre disponível e atenciosa."</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="author-info">
+                            <h4>Juliana Costa</h4>
+                            <span>Nova York, EUA</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <span class="section-subtitle">Fale Conosco</span>
+                    <h2 class="section-title">Vamos Planejar Sua Próxima Aventura?</h2>
+                    <p>Nossa equipe está pronta para criar a viagem perfeita para você. Entre em contato e comece a planejar agora!</p>
+
+                    <div class="contact-methods">
+                        <a href="https://wa.me/5571996721163" class="contact-method" target="_blank">
+                            <div class="method-icon whatsapp">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>WhatsApp</h4>
+                                <p>(71) 99672-1163</p>
+                            </div>
+                        </a>
+
+                        <a href="https://instagram.com/lordeturismo" class="contact-method" target="_blank">
+                            <div class="method-icon instagram">
+                                <i class="fab fa-instagram"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Instagram</h4>
+                                <p>@lordeturismo</p>
+                            </div>
+                        </a>
+
+                        <div class="contact-method">
+                            <div class="method-icon email">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>E-mail</h4>
+                                <p>contato@lordeturismo.com</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon location">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-content">
+                                <h4>Localização</h4>
+                                <p>Salvador, Bahia</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://instagram.com/lordeturismo" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/5571996721163" target="_blank" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="telefone">Telefone</label>
+                                <input type="tel" id="telefone" name="telefone" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="destino">Destino de Interesse</label>
+                            <select id="destino" name="destino" required>
+                                <option value="">Selecione um destino</option>
+                                <option value="europa">Europa</option>
+                                <option value="oriente-medio">Oriente Médio</option>
+                                <option value="america-norte">América do Norte</option>
+                                <option value="asia">Ásia</option>
+                                <option value="oceania">Oceania</option>
+                                <option value="africa">África</option>
+                                <option value="america-sul">América do Sul</option>
+                                <option value="outros">Outros</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span>Enviar Mensagem</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-icon">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-main">LORDE</span>
+                            <span class="logo-sub">TURISMO</span>
+                        </div>
+                    </div>
+                    <p>Especialista em viagens internacionais sob medida. Transformando sonhos em realidade desde o primeiro contato.</p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/lordeturismo" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://wa.me/5571996721163" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#destinos">Destinos</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#experiencias">Experiências</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Serviços</h3>
+                    <ul>
+                        <li><a href="#servicos">Passagens Aéreas</a></li>
+                        <li><a href="#servicos">Hotéis & Resorts</a></li>
+                        <li><a href="#servicos">Cruzeiros</a></li>
+                        <li><a href="#servicos">Pacotes Sob Medida</a></li>
+                        <li><a href="#servicos">Vistos & Documentação</a></li>
+                        <li><a href="#servicos">Seguro Viagem</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="fab fa-whatsapp"></i>
+                            <span>(71) 99672-1163</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span>contato@lordeturismo.com</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Salvador, Bahia - Brasil</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-clock"></i>
+                            <span>Seg - Sex: 9h às 18h</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Lorde Turismo. Todos os direitos reservados.</p>
+                <div class="footer-links">
+                    <a href="#">Política de Privacidade</a>
+                    <span>|</span>
+                    <a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5571996721163" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
